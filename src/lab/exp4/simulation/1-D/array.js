@@ -112,10 +112,10 @@ window.view = {
 	createImage: function(left, top) {
 		var image = document.createElement('img')
 		image.style.position = 'absolute'
-		image.style.left = left + 'px'
-		image.style.top = top  + 'px'
-		image.style.opacity = '0.7'
-        image.className = 'arrowImage'
+		image.style.left = left + '2px'
+		image.style.top = top  + '30px'
+		image.className = 'arrowImage'
+		image.width = '45px'
 		document.getElementById('sortingDiv').appendChild(image)
 	},
 	showCode: function() {

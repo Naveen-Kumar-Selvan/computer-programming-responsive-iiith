@@ -301,7 +301,7 @@ body {
     position: absolute;
     height: 4%;
     width: 96%;
-    top: 3%;
+    top: 5%;
     left: 2%;
     border-radius: 3px;
 }
@@ -395,6 +395,7 @@ body {
 }
 
 .currentKeyValue {
+	 content: url('arrowSmall.png');
     position: absolute;
     border: 1px solid #CCC;
     height: 100%;
@@ -483,6 +484,11 @@ body {
 
 .arrowImage {
     content: url('arrow.png');
+	position: absolute;
+	left: 2px;
+	top: 30px;
+	width: 45px;
+	height: auto;
 }
 
 }
@@ -532,8 +538,14 @@ body {
     margin-top: 20px;
 }
 
-.arrowImage {
+.currentKeyValue {
     content: url('arrowSmall.png');
+	content: url('arrow.png');
+	position: absolute;
+	left: 2px;
+	top: 30px;
+	width: 45px;
+	height: auto;
 }
 
 }
