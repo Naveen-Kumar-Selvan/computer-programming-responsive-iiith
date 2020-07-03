@@ -270,3 +270,15 @@ window.view = {
 	}
 }
 window.onload = function() { view.init() }
+$(document).ready(function(){
+	$("input[type='radio'][name=radio_group]").change(function(){
+	if($(this).val()=="enable")
+	{
+		$("#userInput").show();
+	}
+	else
+	{
+		$("#userInput").hide();
+	}
+	});
+});
