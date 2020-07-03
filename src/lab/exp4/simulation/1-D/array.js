@@ -111,7 +111,7 @@ window.view = {
 	},
 	createImage: function(left, top) {
 		var image = document.createElement('img')
-		image.style.position = 'absolute'
+		image.style.position = 'bott'
 		image.style.left = left + 'px'
 		image.style.top = top  + 'px'
 		image.style.opacity = '0.7'
@@ -269,16 +269,3 @@ window.view = {
 		this.activateEvents()
 	}
 }
-window.onload = function() { view.init() }
-$(document).ready(function(){
-	$("input[type='radio'][name=radio_group]").change(function(){
-	if($(this).val()=="enable")
-	{
-		$("#userInput").show();
-	}
-	else
-	{
-		$("#userInput").hide();
-	}
-	});
-});
